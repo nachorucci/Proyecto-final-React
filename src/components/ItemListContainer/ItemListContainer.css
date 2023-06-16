@@ -1,0 +1,9 @@
+.vinos{
+    padding-top: 100px;
+}
+
+@media (max-width: 1000px){
+    .vinos{
+        padding-top: 120px;
+    }
+}

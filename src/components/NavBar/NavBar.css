@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #0d1b2a;
+    color: white;
+}
+.imgLogo{
+    width: 5rem;
+}
+
+li{
+    cursor: pointer;
+}
+

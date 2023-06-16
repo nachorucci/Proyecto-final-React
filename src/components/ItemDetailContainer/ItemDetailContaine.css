@@ -1,0 +1,9 @@
+.itemDetailContainer{
+    padding-top: 100px;
+}
+
+@media (max-width:1000px){
+    .itemDetailContainer{
+        padding-top: 120px;
+    }
+}

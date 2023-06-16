@@ -1,0 +1,37 @@
+.form{
+    padding-top: 100px;
+    justify-content: center;
+}
+.formulario{
+    background-color: #5f0f40;
+    width: 600px;
+    margin: 50px;
+    border-radius: 10px;
+};
+
+.formulario > label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formulario > label > input{
+    background-color: transparent;
+    border: 0ch;
+    border-bottom: solid 1px;
+    outline: none;
+}
+.formulario > label > textarea{
+    background-color: transparent;
+    border: 0ch;
+    border-bottom: solid 1px;
+    outline: none;
+}
+
+::placeholder { color: white; text-align: center;}
+
+@media (max-width:1000px){
+    .form{
+        padding-top: 120px;
+    }
+}
+
